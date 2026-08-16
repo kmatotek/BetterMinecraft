@@ -1,0 +1,13 @@
+{
+  "itemGroup.betterminecraft": "Example Mod Tab",
+  "block.betterminecraft.example_block": "Example Block",
+  "item.betterminecraft.example_item": "Example Item",
+
+  "betterminecraft.configuration.title": "BetterMinecraft Configs",
+  "betterminecraft.configuration.section.betterminecraft.common.toml": "BetterMinecraft Configs",
+  "betterminecraft.configuration.section.betterminecraft.common.toml.title": "BetterMinecraft Configs",
+  "betterminecraft.configuration.items": "Item List",
+  "betterminecraft.configuration.logDirtBlock": "Log Dirt Block",
+  "betterminecraft.configuration.magicNumberIntroduction": "Magic Number Text",
+  "betterminecraft.configuration.magicNumber": "Magic Number"
+}
