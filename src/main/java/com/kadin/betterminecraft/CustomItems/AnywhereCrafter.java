@@ -1,19 +1,13 @@
 package com.kadin.betterminecraft.CustomItems;
 
+import com.kadin.betterminecraft.CustomMenus.AnywhereCraftingMenu;
 import com.mojang.logging.LogUtils;
-import net.minecraft.core.component.DataComponents;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.SimpleMenuProvider;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.inventory.ContainerLevelAccess;
-import net.minecraft.world.inventory.CraftingMenu;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.component.Consumable;
-import net.minecraft.world.item.component.KineticWeapon;
-import net.minecraft.world.item.equipment.Equippable;
 import net.minecraft.world.level.Level;
 import org.slf4j.Logger;
 
@@ -33,7 +27,7 @@ public class AnywhereCrafter extends Item {
         if (!level.isClientSide()) {
             player.openMenu(new SimpleMenuProvider(
                     (containerId, inventory, p) ->
-                            new CraftingMenu(containerId, inventory, ContainerLevelAccess.NULL),
+                            new AnywhereCraftingMenu(containerId, inventory),
                     CONTAINER_TITLE
             ));
         }
@@ -41,5 +35,3 @@ public class AnywhereCrafter extends Item {
         return InteractionResult.SUCCESS;
     }
 }
-
-// ContainerLevelAccess access
