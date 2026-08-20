@@ -1,7 +1,6 @@
 {
-  "itemGroup.betterminecraft": "Example Mod Tab",
-  "block.betterminecraft.example_block": "Example Block",
-  "item.betterminecraft.example_item": "Example Item",
+  "item.betterminecraft.anywhere_crafter": "Anywhere Crafter",
+
 
   "betterminecraft.configuration.title": "BetterMinecraft Configs",
   "betterminecraft.configuration.section.betterminecraft.common.toml": "BetterMinecraft Configs",
